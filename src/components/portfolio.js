@@ -17,188 +17,64 @@ export default function Portfolio(){
 
    		<div className="col-twelve">
 	         <div id="folio-wrapper" className="block-1-2 block-mob-full stack">
-
-	         	<div className="bgrid folio-item">
-	               <div className="item-wrap">
-	               	<img src="images/portfolio/zerobitcode_final.png" alt="zerobitcode" />
-	                  <a href="#modal-01" className="overlay">	                  	           
-	                     <div className="folio-item-table">
-	                     	<div className="folio-item-cell">
-		     					       <h3 className="folio-title">Zerobitcode</h3>	     					    
-		     					    	 <span className="folio-types">
-		     					       	  Web And App Development Company 
-		     					       </span>
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        		</div>
-
-	        		<div className="bgrid folio-item">
-	               <div className="item-wrap">
-	               	<img src="images/portfolio/wwh_s.svg" alt="whywhathow" />
-	               	<a href="#modal-02" className="overlay">              		                  
-	                     <div className="folio-item-table">
-	                     	<div className="folio-item-cell">
-	                     		<h3 className="folio-title">WhyWhatHow</h3>	     					    
-		     					    	<span className="folio-types">
-		     					       	  Blog
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> 
-	            <div className="bgrid folio-item">
-	               <div className="item-wrap">
-	               	<img src="images/portfolio/clouds.jpg"alt="Clouds" />
-	                  <a href="#modal-03" className="overlay">             		                  
-	                     <div className="folio-item-table">
-	                     	<div className="folio-item-cell">
-	                     		<h3 className="folio-title">Fiction</h3>	     					    
-		     					    	<span className="folio-types">
-		     					       	  Blog
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div>
-
-	            <div className="bgrid folio-item">
-	               <div className="item-wrap">
-	               	<img src="images/portfolio/ruleout_p.png" alt="Beetle" />
-	                  <a href="#modal-04" className="overlay">                  	                 
-	                     <div className="folio-item-table">
-	                     	<div className="folio-item-cell">
-	                     		<h3 className="folio-title">Rule Out</h3>	     					    
-		     					    	<span className="folio-types">
-		     					       	  Clothing
-		     					      </span>		     		
-		     					   </div>  	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div>    
-
-	        		<div className="bgrid folio-item">
-	               <div className="item-wrap">
-	               	<img src="images/portfolio/n.png" alt="Lighthouse" />
-	                  <a href="#modal-05" className="overlay">             		                  
-	                     <div className="folio-item-table">
-	                     	<div className="folio-item-cell">
-	                     		<h3 className="folio-title">Existential to-do List</h3>	     					    
-		     					    	<span className="folio-types">
-		     					       	  Web Dev + Philosophy
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div>
-	            <div id="modal-01" className="popup-modal slider mfp-hide">	
-
-				     	<div className="media">
-				     		<img src="images/portfolio/modals/zerobitcode_final_1.png" alt="Zerobitcode" />
-				     	</div>      	
-
-					   <div className="description-box">
-					      <h4>Zerobitcode</h4>		      
-					      <p>We at ZeroBitCode provide the Best Quality websites and apps at affordable prices. Our goal is to digitalize bussniesses around the world.</p>
-
-					      <div className="categories">Web Development</div>			               
-					   </div>
-
-			         <div className="link-box">
-			            <a href="http://zerobitcode.com">Visit</a>
-					      <a href="/#" className="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div>
-
-				   <div id="modal-02" className="popup-modal slider mfp-hide">	
-
-				     	<div className="media">
-				     		<img src="images/portfolio/wwh_s.svg" alt="whywhathow" />
-				     	</div>      	
-
-					   <div className="description-box">
-					      <h4>WhyWhatHow</h4>		      
-					      <p>Why What How is a food stall for curious people to feed their curiosity. This is my Blog where I write interesting Stuff!</p>
-
-					      <div className="categories">Blog</div>			               
-					   </div>
-
-			         <div className="link-box">
-			            <a href="http://whywhathow.info">Visit</a>
-					      <a href="/#" className="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div>
-
-				   <div id="modal-03" className="popup-modal slider mfp-hide">	
-
-				     	<div className="media">
-				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="Clouds?" />
-				     	</div>      	
-
-					   <div className="description-box">
-					      <h4>Fiction</h4>		      
-					      <p>Here I express my love for art that reflects like a mirror into reality and much more</p>
-
-					      <div className="categories">Blog</div>			               
-					   </div>
-
-			         <div className="link-box">
-			            <a href="http://fiction.whywhathow.info">Visit</a>
-					      <a href="/#" className="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div>
-
-				   <div id="modal-04" className="popup-modal slider mfp-hide">	
-
-				     	<div className="media">
-				     		<img src="images/portfolio/ruleout_p.png" alt="Ruleout" />
-				     	</div>      	
-
-					   <div className="description-box">
-					      <h4>Rule Out</h4>		      
-					      <p>Here we design clothing that are unique to it's design and make you stand out!</p>
-
-					      <div className="categories">Clothing</div>			               
-					   </div>
-
-			         <div className="link-box">
-			            <a href="http://ruleout.in">Visit</a>
-					      <a href="/#" className="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div>
-
-				   <div id="modal-05" className="popup-modal slider mfp-hide">	
-
-				     	<div className="media">
-				     		<img src="images/portfolio/n2.jpg" alt="Existential" />
-				     	</div>      	
-
-					   <div className="description-box">
-					      <h4>Existential to-do List</h4>		      
-					      <p>This is an site where you priotize your work by asking yourself Existential questions!</p>
-
-					      <div className="categories">Web Development + Philosophy</div>			               
-					   </div>
-
-			         <div className="link-box">
-			            <a href="http://existentialtodolist.tk">Visit</a>
-					      <a href="/#" className="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> 
+				<WorkModal img="images/portfolio/zerobitcode_final.png" modalNum="01" title="Zerobitcode" alt="zerobitcode" desc="Web And App Development Company" />
+				<WorkModal img="images/portfolio/wwh_s.svg" modalNum="02" title="whywhathow" alt="whywhathow" desc="Blog" />
+				<WorkModal img="images/portfolio/clouds.jpg" modalNum="03" title="Fiction" alt="Clouds" desc="Blog" />
+				<WorkModal img="images/portfolio/ruleout_p.png" modalNum="05" title="Rule Out" alt="Beetle" desc="Clothing" />
+				<WorkModal img="images/portfolio/n.png" modalNum="04" title="Existential to-do List" alt="Lighthouse" desc="Web Dev + Philosophy" />
+				<Modals  img="images/portfolio/modals/zerobitcode_final_1.png" modalNum="01" title="Zerobitcode" alt="zerobitcode" category="Web And App Development Company" desc="We at ZeroBitCode provide the Best Quality websites and apps at affordable prices. Our goal is to digitalize bussniesses around the world." />
+				<Modals  img="images/portfolio/wwh_s.svg" modalNum="02" alt="whywhathow" title="whywhathow" alt="whywhathow" category="Blog" desc="Why What How is a food stall for curious people to feed their curiosity. This is my Blog where I write interesting Stuff!"  />
+				<Modals  img="images/portfolio/modals/m-clouds.jpg" modalNum="03" title="Fiction" alt="Clouds" category="Blog" desc= "Here I express my love for art that reflects like a mirror into reality and much more" />
+				<Modals  img="images/portfolio/ruleout_p.png" modalNum="05" title="Rule Out" alt="Beetle" category="Clothing" desc="Here we design clothing that are unique to it's design and make you stand out!" />
+				<Modals  img="images/portfolio/n2.jpg"  modalNum="04" title="Existential to-do List" alt="Lighthouse" category="Web Dev + Philosophy" desc="This is an site where you priotize your work by asking yourself Existential questions!" />
 	         </div>
    		</div>
    	</div>
 		
 	</section>
     );
+}
+
+function WorkModal(props){
+	return (
+		<div className="bgrid folio-item">
+		<div className="item-wrap">
+			<img src={props.img} alt={props.alt} />
+		   <a href={`#modal-` + props.modalNum} className="overlay">	                  	           
+			  <div className="folio-item-table">
+				  <div className="folio-item-cell">
+							 <h3 className="folio-title">{props.title}</h3>	     					    
+							   <span className="folio-types">
+								  {props.desc}
+							 </span>
+						 </div>	                      	
+			  </div>                 
+		   </a>
+		</div>	               
+		 </div>
+	);
+}
+
+function Modals(props){
+	return (
+		<div id={`modal-` + props.modalNum} className="popup-modal slider mfp-hide">	
+
+				     	<div className="media">
+				     		<img src={props.img} alt={props.alt} />
+				     	</div>      	
+
+					   <div className="description-box">
+					      <h4>{props.title}</h4>		      
+					      <p>{props.desc}</p>
+
+					      <div className="categories">{props.category}</div>			               
+					   </div>
+
+			         <div className="link-box">
+			            <a href={props.link}>Visit</a>
+					      <a href="/#" className="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div>
+	);
 }

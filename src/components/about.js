@@ -57,59 +57,7 @@ export default function About(){
  
             </div>
  
-            <div className="col-six tab-full">
- 
-                <h3>Skills</h3>
-                <p>I am a Full Stack Web Developer, which means I can work with any aspect of web development let it be front-end, back-end, or API-related work.
- I am also a creative writer and running two blogs which you can find here.</p>
- 
-                 <ul className="skill-bars">
-                    <li>
-                        <div className="progress percent100"><span>100%</span></div>
-                        <strong>HTML5</strong>
-                    </li>
-                    <li>
-                        <div className="progress percent90"><span>90%</span></div>
-                        <strong>CSS3</strong>
-                    </li>
-                    <li>
-                        <div className="progress percent80"><span>80%</span></div>
-                        <strong>Javascript</strong>
-                    </li>
-                    <li>
- 
-                        <div className="progress percent90"><span>90%</span></div>
-                        <strong>Creative Writing</strong>
-                    </li>
-                    <li>
-                    <div className="progress percent85"><span>85%</span></div>
-                        <strong>React.js</strong>
-                    </li>
-                    <li>
-                    <div className="progress percent85"><span>80%</span></div>
-                        <strong>Graphql</strong>
-                    </li>
-                    <li>
-                    <div className="progress percent90"><span>90%</span></div>
-                        <strong>Vue.js</strong>
-                    </li>
-                    <li>
-                        <div className="progress percent95"><span>95%</span></div>
-                        <strong>Bootstrap</strong>
-                    </li>
-                    <li>
- 
-                        <div className="progress percent70"><span>70%</span></div>
-                        <strong>Django</strong>
-                    </li>
-                    <li>
-                        <div className="progress percent95"><span>95%</span></div>
-                        <strong>Wordpress</strong>
-                    </li>
-       
-                 </ul>
- 
-            </div>
+           <Skills />
  
         </div>
  
@@ -120,5 +68,39 @@ export default function About(){
         </div>
  
     </section>
+    );
+}
+
+function Skills(){
+    return (
+        <div className="col-six tab-full">
+ 
+        <h3>Skills</h3>
+        <p>I am a Full Stack Web Developer, which means I can work with any aspect of web development let it be front-end, back-end, or API-related work.
+I am also a creative writer and running two blogs which you can find here.</p>
+
+         <ul className="skill-bars">
+            <SkillProp name="Graphql" percent="75" />
+            <SkillProp name="React.js" percent="85" />
+            <SkillProp name="Creative Writing" percent="90" />
+            <SkillProp name="Javascript" percent="85" />
+            <SkillProp name="CSS3" percent="90" />
+            <SkillProp name="HTML5" percent="100" />
+            <SkillProp name="Vue.js" percent="90" />
+            <SkillProp name="Bootstrap" percent="95" />
+            <SkillProp name="Django" percent="70" />
+            <SkillProp name="Wordpress" percent="95" />
+         </ul>
+
+    </div>
+    );
+}
+
+function SkillProp(props){
+    return (
+        <li>
+            <div className={`progress percent` + props.percent}><span>{props.percent}%</span></div>
+            <strong>{props.name}</strong>
+        </li>
     );
 }

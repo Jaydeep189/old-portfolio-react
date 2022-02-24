@@ -18,53 +18,31 @@ export default function Services(){
    	<div className="row services-content">
    		<div id="owl-slider" className="owl-carousel services-list">
 
-	      	<div className="service">	
-
-	      		<span className="icon"><i className="icon-earth"></i></span>            
-
-	            <div className="service-content">	
-
-	            	 <h3>Back-end Development</h3>
-
-		            <p className="desc">Hosting and creating a website logic and inner working using Django and Node.js like Frameworks with APIs like REST and GraphQL.</p>
-	         		
-	         	</div> 	         	 
-
-				</div>
-
-				<div className="service">	
-
-					<span className="icon"><i className="icon-window"></i></span>                          
-
-	            <div className="service-content">	
-
-	            	<h3>Front-end Development</h3>
-
-		            <p className="desc">Creating a front-end portion of a website using HTML, CSS, Javascript with front-end libraries like React.js and Vue.jsCreating a front-end portion of a website using HTML, CSS, Javascript with front-end libraries like React.js and Vue.js
-	         		</p>
-
-	            </div>	                          
-
-			   </div> 
-
-			   <div className="service">
-
-			   	<span className="icon"><i className="icon-paint-brush"></i></span>		            
-
-	            <div className="service-content">
-
-	            	<h3>Creative-Work</h3>
-
-		            <p className="desc">Any Creative Idea that you need help with, I am up for it.
-	        			</p> 
-	            </div> 	            	               
-			   </div> 
-				<div className="service">	              
-
-			   </div>
+			<IndiServices icon="icon-earth" title="Back-end Development" desc="Hosting and creating a website logic and inner working using Django and Node.js like Frameworks with APIs like REST and GraphQL."/>
+			<IndiServices icon="icon-window" title="Front-end Development" desc="Creating a front-end portion of a website using HTML, CSS, Javascript with front-end libraries like React.js and Vue.jsCreating a front-end portion of a website using HTML, CSS, Javascript with front-end libraries like React.js and Vue.js"/>
+			<IndiServices icon="icon-paint-brush" title="Creative-Work" desc="Any Creative Idea that you need help with, I am up for it."/>
+			<IndiServices />
 	      </div>
    	</div>
 		
 	</section> 
     );
+}
+
+function IndiServices(props){
+	return (
+		<div className="service">	
+
+		<span className="icon"><i className={props.icon}></i></span>            
+
+	  <div className="service-content">	
+
+		   <h3>{props.title}</h3>
+
+		  <p className="desc">{props.desc}</p>
+		   
+	   </div> 	         	 
+
+	  </div>
+	);
 }
