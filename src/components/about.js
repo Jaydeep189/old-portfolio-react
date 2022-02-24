@@ -11,7 +11,7 @@ export default function About(){
  
                 <div className="intro-info">
  
-                    <img src="images/portfolio/me.jpg" alt="Profile Picture" />
+                    <img src="images/portfolio/me.jpg" />
  
                     <p className="lead">Hey there, I am Jaydeep. 
  I love solving problems and detecting patterns. 

@@ -99,7 +99,7 @@ export default function Portfolio(){
 	            <div id="modal-01" className="popup-modal slider mfp-hide">	
 
 				     	<div className="media">
-				     		<img src="images/portfolio/modals/zerobitcode_final_1.png" alt="" />
+				     		<img src="images/portfolio/modals/zerobitcode_final_1.png" alt="Zerobitcode" />
 				     	</div>      	
 
 					   <div className="description-box">
@@ -139,7 +139,7 @@ export default function Portfolio(){
 				   <div id="modal-03" className="popup-modal slider mfp-hide">	
 
 				     	<div className="media">
-				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="Clouds?" />
 				     	</div>      	
 
 					   <div className="description-box">
@@ -159,7 +159,7 @@ export default function Portfolio(){
 				   <div id="modal-04" className="popup-modal slider mfp-hide">	
 
 				     	<div className="media">
-				     		<img src="images/portfolio/ruleout_p.png" alt="" />
+				     		<img src="images/portfolio/ruleout_p.png" alt="Ruleout" />
 				     	</div>      	
 
 					   <div className="description-box">
@@ -179,7 +179,7 @@ export default function Portfolio(){
 				   <div id="modal-05" className="popup-modal slider mfp-hide">	
 
 				     	<div className="media">
-				     		<img src="images/portfolio/n2.jpg" alt="" />
+				     		<img src="images/portfolio/n2.jpg" alt="Existential" />
 				     	</div>      	
 
 					   <div className="description-box">
@@ -195,25 +195,6 @@ export default function Portfolio(){
 			         </div>		      
 
 				   </div> 
-
-				   <div id="modal-06" className="popup-modal slider mfp-hide">	
-
-				     	<div className="media">
-				     		<img src="images/portfolio/pro2.jpg" alt="" />
-				     	</div>      	
-
-					   <div className="description-box">
-					      <h4>WrestlingDatabase</h4>		      
-					      <p>This is pro-wrestling decoded, where I will relate the chaotic mess of pro-wrestling with real life example</p>
-
-					      <div className="categories">Blog</div>			               
-					   </div>
-
-			         <div className="link-box">
-			            <a href="http://wrestlingdatabase.in">Visit</a>
-					      <a href="#" className="popup-modal-dismiss">Close</a>
-			         </div>		      
-				   </div>
 	         </div>
    		</div>
    	</div>
