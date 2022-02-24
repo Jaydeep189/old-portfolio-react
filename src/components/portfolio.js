@@ -111,7 +111,7 @@ export default function Portfolio(){
 
 			         <div className="link-box">
 			            <a href="http://zerobitcode.com">Visit</a>
-					      <a href="#" className="popup-modal-dismiss">Close</a>
+					      <a href="/#" className="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div>
@@ -131,7 +131,7 @@ export default function Portfolio(){
 
 			         <div className="link-box">
 			            <a href="http://whywhathow.info">Visit</a>
-					      <a href="#" className="popup-modal-dismiss">Close</a>
+					      <a href="/#" className="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div>
@@ -151,7 +151,7 @@ export default function Portfolio(){
 
 			         <div className="link-box">
 			            <a href="http://fiction.whywhathow.info">Visit</a>
-					      <a href="#" className="popup-modal-dismiss">Close</a>
+					      <a href="/#" className="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div>
@@ -171,7 +171,7 @@ export default function Portfolio(){
 
 			         <div className="link-box">
 			            <a href="http://ruleout.in">Visit</a>
-					      <a href="#" className="popup-modal-dismiss">Close</a>
+					      <a href="/#" className="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div>
@@ -191,7 +191,7 @@ export default function Portfolio(){
 
 			         <div className="link-box">
 			            <a href="http://existentialtodolist.tk">Visit</a>
-					      <a href="#" className="popup-modal-dismiss">Close</a>
+					      <a href="/#" className="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div> 
