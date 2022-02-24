@@ -4,7 +4,7 @@ export default function Headers(){
         <div className="row">
          <div className="top-bar">
          <h4 className="nav-head">Portfolio</h4>
-                <a className="menu-toggle" href="#"><span>Menu</span></a>   
+                <a className="menu-toggle" href="/#"><span>Menu</span></a>   
                 <nav id="main-nav-wrap">
                      <ul className="main-navigation">
                          <li className="current"><a className="smoothscroll"  href="#intro" title="">Home</a></li>
